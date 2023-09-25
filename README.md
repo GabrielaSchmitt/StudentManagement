@@ -1,6 +1,12 @@
 <h1 align="center">
   <br>Sistema de Gestão de Alunos</h1>
 
+<div align="center">
+  
+![systemcompletegifers](https://github.com/GabrielaSchmitt/StudentManagement/assets/86369677/33aa178f-2191-4a9a-b21b-3d0c7d89e02a)
+
+</div>
+
 <a id="pt-readme"></a>
 ## [English](#en-readme) | Português
 
@@ -13,9 +19,7 @@
 - Área de Estudo
 - Média
 
-Abaixo, você encontrará um GIF animado mostrando a aplicação em funcionamento, acessível através da porta 127.0.0.1:8000:
-
-# colocar gif do funcionamento
+O GIF animado mostra a aplicação em funcionamento, acessível através da porta 127.0.0.1:8000 .
 
 ## Como rodar os códigos
 
@@ -82,6 +86,8 @@ $ python manage.py createsuperuser
 
 Agora, o seu sistema de gerenciamento de estudantes está configurado e pronto para uso. Personalize-o de acordo com as suas necessidades específicas.
 
+<br>
+
 ✨ Obrigada pela atenção! ✨
 
 -------
@@ -102,9 +108,7 @@ Agora, o seu sistema de gerenciamento de estudantes está configurado e pronto p
 - Field of study
 - GPA
 
-Here`s an animated gif of the application running on port 127.0.0.1:8000 port:
-
-# gif here
+The animated gif shows the application running on port 127.0.0.1:8000 port.
 
 ## How to run the codes
 
@@ -172,5 +176,6 @@ $ python manage.py createsuperuser
 
 Now, your student management system is set up and ready for use. Customize it according to your specific needs.
 
+<br>
 
 ✨ Thanks for your attention! ✨
