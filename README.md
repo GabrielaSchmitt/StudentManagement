@@ -1,28 +1,176 @@
-# StudentManagement
-Student Management System
+<h1 align="center">
+  <br>Sistema de Gestão de Alunos</h1>
+
+<a id="pt-readme"></a>
+## [English](#en-readme) | Português
+
+**Student Management** é um sistema baseado em Django e Python projetado para gerenciar informações de estudantes em uma instituição educacional fictícia. Ele utiliza o SQLite como banco de dados e oferece recursos para armazenar, adicionar, atualizar e excluir dados de estudantes, incluindo:
+
+- Número de Estudante
+- Nome
+- Sobrenome
+- E-mail
+- Área de Estudo
+- Média
+
+Abaixo, você encontrará um GIF animado mostrando a aplicação em funcionamento, acessível através da porta 127.0.0.1:8000:
+
+# colocar gif do funcionamento
+
+## Como rodar os códigos
+
+Para rodar os códigos é necessária uma IDE Python como o **VSCODE**, **Pycharm** baixe o projeto e siga alguns comandos no terminal para ver a magia acontecendo!
+
+## Comandos
+
+### Configurando um Ambiente Virtual
+Para criar e ativar um ambiente virtual, utilize os seguintes comandos Bash:
+
+```bash
+$ python -m venv venv 
+$ source venv/bin/activate
+```
+
+Instale o Django executando o seguinte comando:
+
+```bash
+$ pip install django
+```
+
+Em seguida, inicialize o seu projeto Django:
+
+```bash
+$ django-admin startproject django_project .
+```
+
+Executando o Servidor:
+
+```bash
+$ python manage.py runserver 
+```
+
+Acesse a sua aplicação através do link fornecido.
+
+### Criando um Aplicativo Django
+Crie um novo aplicativo chamado "students" com o seguinte comando:
+
+```bash
+$ python manage.py startapp students
+```
+
+Não se esqueça de adicionar este aplicativo ao arquivo `django_project/settings.py` na seção "INSTALLED_APPS".
+
+### Gerenciando Modelos de Banco de Dados
+Depois de definir os modelos de dados, gere as migrações com o seguinte comando:
+
+```bash
+$ python manage.py makemigrations
+```
+
+Se as migrações foram criadas com sucesso, aplique-as ao banco de dados:
+
+```bash
+$ python manage.py migrate 
+```
+
+### Tarefas Administrativas
+Para tarefas administrativas, utilize o painel de administração do Django. Para criar uma conta de superusuário, execute:
+
+```bash
+$ python manage.py createsuperuser
+```
+
+Agora, o seu sistema de gerenciamento de estudantes está configurado e pronto para uso. Personalize-o de acordo com as suas necessidades específicas.
+
+✨ Obrigada pela atenção! ✨
+
+-------
+
+<h1 align="center">
+  <br>Student Management System</h1>
+<a id="en-readme"></a>
+
+## English | [Português](#pt-readme)
 
 
-## Bash Virtual Environment running commands:
-1. python -m venv venv 
-2. source venv/bin/activate
+**Student Management** is a Django and Python-based system designed to manage student information for a fictional educational institution. It utilizes SQLite as its database and offers features for storing, adding, updating, and deleting student data, including:
 
-## Django  
-1. pip install django
-2. django-admin startproject django_project .
+- Student number
+- First name
+- Last name
+- E-mail
+- Field of study
+- GPA
 
-## Run the server
-1. python manage.py runserver 
-2. open the link on the given port
+Here`s an animated gif of the application running on port 127.0.0.1:8000 port:
 
-##
-1. python manage.py startapp students
-2. Add this project to your django_project/settings apps 
+# gif here
 
-## after having a models run
-1. python manage.py makemigrations
+## How to run the codes
 
-if the models were created sucessfully run the command
-1. python manage.py migrate 
+To run the codes you need a Python IDE such as **VSCODE, Pycharm**   just download the entire project and follow the above bash commands to see magic happening! 
 
-# for administrative tasks use admin.py 
-1. python manage.py createsuperuser
+## Getting Started
+
+### Setting Up a Virtual Environment
+To create and activate a virtual environment, use the following Bash commands:
+
+```bash
+$ python -m venv venv 
+$ source venv/bin/activate
+```
+
+Install Django by running the following command:
+
+```bash
+$ pip install django
+```
+
+Next, initialize your Django project:
+
+```bash
+$ django-admin startproject django_project .
+```
+
+Running the Server:
+
+```bash
+$ python manage.py runserver 
+```
+
+Access your application through the provided link.
+
+
+Creating a Django App
+Create a new app named "students" with the following command:
+
+```bash
+$ python manage.py startapp students
+```
+
+Don't forget to add this app to your django_project/settings.py file under the "INSTALLED_APPS" section.
+
+Managing Database Models
+Once you have defined your data models, generate migrations with:
+
+```bash
+$ python manage.py makemigrations
+```
+
+If the migrations were created successfully, apply them to the database:
+
+```bash
+$ python manage.py migrate
+```
+
+Administrative Tasks
+For administrative tasks, use the Django admin panel. To create a superuser account, run:
+
+```bash
+$ python manage.py createsuperuser
+```
+
+Now, your student management system is set up and ready for use. Customize it according to your specific needs.
+
+
+✨ Thanks for your attention! ✨
