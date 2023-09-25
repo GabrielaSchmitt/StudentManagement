@@ -25,6 +25,8 @@ O GIF animado mostra a aplicação em funcionamento, acessível através da port
 
 Para rodar os códigos é necessária uma IDE Python como o **VSCODE**, **Pycharm** baixe o projeto e siga alguns comandos no terminal para ver a magia acontecendo!
 
+<br>
+
 ## Comandos
 
 ### Configurando um Ambiente Virtual
@@ -90,7 +92,10 @@ Agora, o seu sistema de gerenciamento de estudantes está configurado e pronto p
 
 ✨ Obrigada pela atenção! ✨
 
+
 -------
+<br>
+<br>
 
 <h1 align="center">
   <br>Student Management System</h1>
@@ -113,6 +118,8 @@ The animated gif shows the application running on port 127.0.0.1:8000 port.
 ## How to run the codes
 
 To run the codes you need a Python IDE such as **VSCODE, Pycharm**   just download the entire project and follow the above bash commands to see magic happening! 
+
+<br>
 
 ## Getting Started
 
